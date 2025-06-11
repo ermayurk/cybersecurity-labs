@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Writeups: TryHackMe & Hack The Box
+# 🛡️ Cybersecurity Labs: TryHackMe & Hack The Box
 
 Welcome to my ethical hacking portfolio!  
 This repository contains well-documented writeups for labs and challenges completed on TryHackMe and Hack The Box. Each folder represents one room or machine, with step-by-step walkthroughs and proof screenshots.
@@ -50,6 +50,8 @@ writeup.md → Detailed walkthrough of the lab
 
 screenshots/ → Supporting images or proof of flags
 
+---
+
 ## 🚧 Upcoming Additions
 
 More HTB and THM rooms
@@ -58,12 +60,22 @@ Web attack-focused labs from trusted platforms
 
 (Later) A separate repo for custom Python scripts
 
+---
+
 ## 📫 Connect with Me
 
 LinkedIn: https://www.linkedin.com/in/ermayurk/
 
-GitHub: github.com/
+GitHub: https://github.com/ermayurk/
+
+---
 
 ## 🧠 This project is part of my learning journey into offensive security and penetration testing. Feedback and collaboration are welcome!
+
+---
+
+## ⚠️ Disclaimer
+All writeups and labs in this repository are completed in legally authorized environments for educational purposes only.
+I do not support or promote unauthorized access or any unethical hacking activity.
 
 ---
