@@ -9,8 +9,11 @@ This repository contains well-documented writeups for labs and challenges comple
 
 **Mayur Kulkarni**  
 Jr. Penetration Tester | VAPT Enthusiast | CEH Trainee
+
 🎯 Goal: Build strong skills in VAPT and break into the cybersecurity industry.
+
 ✅ Google Cybersecurity Certified--pending financial aid
+
 📚 Platforms: TryHackMe & Hack The Box
 
 ---
@@ -36,3 +39,31 @@ thm-writeups/
 │       └── screenshots/
 │
 └── README.md
+```
+---
+
+## ✍️ What’s Inside
+
+Each lab folder contains:
+
+writeup.md → Detailed walkthrough of the lab
+
+screenshots/ → Supporting images or proof of flags
+
+## 🚧 Upcoming Additions
+
+More HTB and THM rooms
+
+Web attack-focused labs from trusted platforms
+
+(Later) A separate repo for custom Python scripts
+
+## 📫 Connect with Me
+
+LinkedIn: https://www.linkedin.com/in/ermayurk/
+
+GitHub: github.com/
+
+## 🧠 This project is part of my learning journey into offensive security and penetration testing. Feedback and collaboration are welcome!
+
+---
