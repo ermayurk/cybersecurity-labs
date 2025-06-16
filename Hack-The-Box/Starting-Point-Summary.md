@@ -22,7 +22,6 @@ In this tier, we gained initial access through weak or misconfigured services.
 - Connecting to exposed **Redis** servers
 
 ### 🛠️ Tools Used
-
 ```bash
 # Nmap – Scan all ports with scripts and service detection
 nmap -sC -sV -p- <IP>
@@ -49,11 +48,17 @@ redis-cli -h <IP>
 - How attackers exploit such services to gain initial system access.
 - Basics of interacting with remote services via CLI tools.
 
+💼 Real-World Relevance
+- These services are still common in legacy systems and internal infrastructure.
+- Weak or anonymous logins are often exploited in real attacks and CTFs.
+- Mastering access via CLI tools is critical for any ethical hacker.
+
 
 ## 🧩 Tier 1 – Web & Service Enumeration
+
 Here we shifted focus toward deeper enumeration and web-based discovery.
 
-### 🧪 Techniques Explored
+### 🛠️ Tools Used
 ```
 # Increasing packet send rate in Nmap:
 nmap --min-rate 1000 -sV -p- <IP>
@@ -81,16 +86,18 @@ sudo responder -I <interface>
 - Manual hostname resolution via the hosts file.
 - Capturing NTLM and broadcast traffic using Responder for potential credential leaks.
 
+### 💼 Real-World Relevance
+- Misconfigured web servers and exposed directories are common in bug bounty programs
+- Manual host resolution helps in restricted network environments (VPNs, enterprise setups)
+- Tools like Responder are frequently used in internal penetration testing and red team ops
+
 ## 🚀 Why This Matters
 "Fundamentals are the building blocks of fun and elite performance."
 
 These labs may be labeled "beginner," but they simulate real-world attack surfaces. Misconfigured services, weak credentials, and improper access control are still the root cause of many breaches today.
 
-Mastering these basic techniques prepares me for:
-
-Real-world CTFs 🧠
-
-Penetration testing jobs 🔐
-
-Advanced red team exercises 🎯
+Mastering these basic techniques prepares us for:
+- Real-world CTFs 🧠
+- Penetration testing jobs 🔐
+- Advanced red team exercises 🎯
 
