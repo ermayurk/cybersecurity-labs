@@ -41,6 +41,7 @@ telnet <IP>
 
 # Redis CLI – Access Redis server
 redis-cli -h <IP>
+```
 
 ### 🧠 Key Takeaways
 - How nmap scans ports, detects services, and identifies misconfigurations.
@@ -53,6 +54,7 @@ redis-cli -h <IP>
 Here we shifted focus toward deeper enumeration and web-based discovery.
 
 ### 🧪 Techniques Explored
+```
 # Increasing packet send rate in Nmap:
 nmap --min-rate 1000 -sV -p- <IP>
 
@@ -70,6 +72,7 @@ echo "<target_ip> <domain_name>" |sudo tee -a /etc/hosts
 
 # Using Responder to capture broadcast network traffic:
 sudo responder -I <interface>
+```
 
 ### 🧠 Key Takeaways
 - Optimizing nmap speed using flags like --min-rate.
